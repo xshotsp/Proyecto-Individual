@@ -1,0 +1,141 @@
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70vw;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+@media (max-width:420px) {
+  .container {
+      width: 90vw;
+      justify-content: space-evenly;
+      margin-top: 0;
+  }
+}
+
+.filterContainer {
+  display: flex;
+  flex-direction: column;
+  color: #12a4de; 
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18pt;
+  height: 5rem;
+}
+
+@media (max-width:420px) {
+  .filterContainer {
+      font-size: 14pt;
+      height: 4rem;
+      margin-top: 0.2rem;
+  }
+}
+
+.selects {
+  font-family: 'Arial', sans-serif; 
+  font-size: 14pt;
+  color: #12b5de; 
+  background-color: rgb(12, 75, 91);
+  border-radius: 8px;
+  border: 0.5px solid rgba(18, 157, 222, 0.6); 
+  box-shadow: 0px 0px 10px #12a4de; 
+  outline: transparent;
+  transition: ease-in-out 100ms;
+}
+
+@media (max-width: 420px) {
+  .selects {
+      font-size: 10pt;
+      margin: 0;
+  }
+}
+
+.selects:focus {
+  border: 2px solid rgb(18, 140, 222); 
+}
+
+.selects:hover {
+  cursor: pointer;
+  border: 2px solid rgb(18, 174, 222); 
+}
+
+.selects:after {
+  border: 0.5px solid rgba(18, 157, 222, 0.6); 
+  box-shadow: 0px 0px 10px #12a4de; 
+}
+
+.btn {
+  font-family: 'Arial', sans-serif; 
+  color: #12a4de;
+  background-color: rgba(9, 20, 52, 0.3);
+  border-radius: 8px;
+  border: 0.5px solid rgba(18, 140, 222, 0.6); 
+  box-shadow: 0px 0px 5px #12a4de; 
+  font-size: 18pt;
+  padding: 1rem;
+  transition: ease-in-out 100ms;
+}
+
+@media (max-width: 420px) {
+  .btn {
+      margin-top: 0.5rem;
+      font-size: 12pt;
+      padding: 0.5rem;
+  }
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  border: 2px solid rgb(18, 140, 222); 
+}
+
+.input {
+  font-family: 'Arial', sans-serif; 
+  appearance: none;
+  color: #12b5de; 
+  border-radius: 8px;
+  background-color: transparent;
+  border: 0.5px solid rgba(18, 157, 222, 0.6); 
+  box-shadow: 0px 0px 5px #12a4de; 
+  margin-right: 5px;
+  font-size: 16pt;
+  padding: 1rem;
+  padding-left: 0.8rem;
+  outline: transparent;
+  transition: ease-in-out 100ms;
+}
+
+@media (max-width: 420px) {
+  .input {
+      margin-top: 0.5rem;
+      font-size: 10pt;
+      padding: 0.5rem;
+  }
+}
+
+.input:focus {
+  border: 2px solid rgb(18, 140, 222); 
+}
+
+.input:hover {
+  border: 2px solid rgb(18, 174, 222); 
+}
+
+.input::placeholder {
+  color: #12a4de; 
+  font-family: 'Arial', sans-serif; 
+}
+
+.input:read-write {
+  font-family: 'Arial', sans-serif; 
+}
+
+.searchContainer {
+  display: flex;
+  justify-content: flex-end;
+}

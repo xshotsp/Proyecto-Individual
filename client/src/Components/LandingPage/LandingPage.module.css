@@ -1,0 +1,56 @@
+:root {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.imgContainer {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../Img/landing.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
+
+.btn {
+    position: absolute;
+    font-family: 'Shadows Into Light', cursive;
+    color: #12aede;
+    background-color: rgba(9, 20, 52, 0.8);
+    border-radius: 8px;
+    border: 0.5px solid rgba(18, 181, 222, 0.6);
+    box-shadow: 0px 0px 5px #12c6de;
+    font-size: 18pt;
+    padding: 0.6rem;
+    top: 56%;
+    left: 40%;
+    transform: rotate(7.5deg);
+    transition: ease-in-out 300ms;
+}
+
+@media (max-width: 420px) {
+    .btn {
+        top: 58%;
+        left: 20%;
+        transform: scale(1.2);
+    }
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: rgba(9, 20, 52, 1);
+    box-shadow: 0px 0px 25px #12bfde;
+}

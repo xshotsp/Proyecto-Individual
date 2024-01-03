@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+/* :root {
+    --Color1: #5B0C39 rgb(91, 12, 57),
+    --Color2: #DE1285 rgb(222, 18, 133),
+    --Color3: #AEC3FF rgb(174, 195, 255),
+    --Color4: #091434 rgb(9, 20, 52)
+} */
+
+:root {
+    font-family: 'Shadows Into Light', cursive;
+    width: 100vw;
+    height: 100vh;
+}
